@@ -6,6 +6,8 @@ Para obtener los archivos de los subtítulos se buscaron en internet colocando H
 
 Es recomendable que todos los subrítulos que se hayan descargado se coloquen juntos en una sola carpeta, la cual estará ubicada en la carpeta principal del proyecto. 
 
+Tener en cuenta que el archivo principal es el llamado AnalisisSentimentalPeliculas.py
+
 ### Objetivos
 
 El principal objetivo es poner en práctica conocimientos sobre análisis sentimental a textos y para ello lo primero que se hizo en el programa fue hacer un breve análisis sentimental a tres textos con diferentes opiniones acerca de un producto, uno con sentimientos negativos sobre un producto, uno con sentimientos positivos sobre el producto y otro neutro. Esto por medio de la librería nltk mediante el método SentimentIntensityAnalyzer.
