@@ -40,7 +40,7 @@ style.use('fivethirtyeight') #Estilo de grafico
 # un carácter de un lenguaje natural en un símbolo de otro sistema de representación, 
 # para esto se tienen distintos números. Para nuestro caso debemos utilizar iso-8859-1, 
 # en caso de que no coloquemos el encoding seguramente dará un error al momento de ejecutar la línea. 
-movie = 'srt/Harry Potter And The Sorcerers Stone1_1.srt'
+movie = 'Harry Potter And The Sorcerers Stone1_1.srt'
 subs = pysrt.open(movie, encoding='iso-8859-1')
 
 #Intervalo de análisis
