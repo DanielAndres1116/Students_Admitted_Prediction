@@ -33,4 +33,4 @@ Como podemos ver el la gráfica, casi todas las lineas están por encima del cer
 
 Al poder realizar este análisis para cualquier película, también podemos decir que es posible hacer este análisis para cualquier tipo de texto o de video aumentando así el alcance de estas librerías, tanto la de nltk como la de textblob
 
-#### PD: Se agregó un código llamado Extraer_Datos_Twitter.ipynb donde se extrae cierta información de Twitter a partir de una cuenta de Developer, este código no está relacionado con el de análisis sentimental, pero podrían combinarse los conocimientos en ambas cosas para obtener análisis sentimental de publicaciones en Twitter.
+#### PD: Se agregó un código llamado Extraer_Datos_Twitter.ipynb donde se extrae cierta información de Twitter a partir de una cuenta de Developer, este código no está relacionado con el de análisis sentimental de la película, pero podrían combinarse los conocimientos en ambas cosas para obtener análisis sentimental de publicaciones en Twitter.
