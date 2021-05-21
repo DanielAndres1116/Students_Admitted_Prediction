@@ -2,15 +2,15 @@
 ## Análisis sentimental en textos y subtítulos de películas
 
 ### Descripción del Dataset y cómo se obtuvo
-Para obtener los archivos de los subtítulos se buscaron en internet colocando Harry Potter Movies SRT. Se puede seleccionar el primer link que aparece en Google y descargar desde allí todos los subtítulos. Cabe destavar que se debe seleccionar el mismo idioma para todas las películas, aunque aquí unicamente se analizó la primera película. 
+Para obtener los archivos de los subtítulos se buscaron en internet colocando Harry Potter Movies SRT. Se puede seleccionar el primer link que aparece en Google y descargar desde allí todos los subtítulos. Cabe destacar que se debe seleccionar el mismo idioma para todas las películas, aunque aquí unicamente se analizó la primera película. 
 
-Es recomendable que todos los subrítulos que se hayan descargado se coloquen juntos en una sola carpeta, la cual estará ubicada en la carpeta principal del proyecto. 
+Es recomendable que todos los subtítulos que se hayan descargado se coloquen juntos en una sola carpeta, la cual estará ubicada en la carpeta principal del proyecto. 
 
 Tener en cuenta que el archivo principal es el llamado AnalisisSentimentalPeliculas.py
 
 ### Objetivos
 
-El principal objetivo es poner en práctica conocimientos sobre análisis sentimental a textos y para ello lo primero que se hizo en el programa fue hacer un breve análisis sentimental a tres textos con diferentes opiniones acerca de un producto, uno con sentimientos negativos sobre un producto, uno con sentimientos positivos sobre el producto y otro neutro. Esto por medio de la librería nltk mediante el método SentimentIntensityAnalyzer.
+El principal objetivo fue hacer el análisis sentimental a textos y para ello lo primero que se hizo en el programa fue un breve análisis sentimental a tres textos con diferentes opiniones acerca de un producto, uno con sentimientos negativos, uno con sentimientos positivos y otro con sentimientos neutros. Esto por medio de la librería nltk mediante el método SentimentIntensityAnalyzer.
 
 Posteriormente se hizo un análisis sentimental de la película de Harry Potter para luego graficar los sentimientos que ocurren a lo largo de la película. Con la gráfica se observan los momentos felices y tristes de la trama así como el tiempo exacto en el que ocurren. Cabe destacar que este análisis se puede hacer con cualquier película que se desee, aunque la idea es que sean películas que cuenten con un lenguaje normal y no del tipo victoriano con términos o frases que no sean comúnmente utilizadas en nuestro día a día.
 
