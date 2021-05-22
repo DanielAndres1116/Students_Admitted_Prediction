@@ -1,6 +1,8 @@
 # Analisis_Sentimientos_Texto
 ## Análisis sentimental en textos y subtítulos de películas
 
+![image](https://user-images.githubusercontent.com/43154438/119210851-4ade7e00-ba74-11eb-9df1-55ad2e15ac2e.png)
+
 ### Descripción del Dataset y cómo se obtuvo
 Para obtener los archivos de los subtítulos se buscaron en internet colocando Harry Potter Movies SRT. Se puede seleccionar el primer link que aparece en Google y descargar desde allí todos los subtítulos. Cabe destacar que se debe seleccionar el mismo idioma para todas las películas, aunque aquí unicamente se analizó la primera película. 
 
