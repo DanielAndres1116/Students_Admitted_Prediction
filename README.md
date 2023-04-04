@@ -1,38 +1,27 @@
-# Analisis_Sentimientos_Texto
-## Análisis sentimental en textos y subtítulos de películas
+# 1. Sentimental Analysis: understanding the feelings of potential customers
 
-![image](https://user-images.githubusercontent.com/43154438/119210851-4ade7e00-ba74-11eb-9df1-55ad2e15ac2e.png)
+# 1.1. Sentimental Analysis using the Natural Language Toolkit (nltk) – Python Library
 
-### Descripción del Dataset y cómo se obtuvo
-Para obtener los archivos de los subtítulos se buscaron en internet colocando Harry Potter Movies SRT. Se puede seleccionar el primer link que aparece en Google y descargar desde allí todos los subtítulos. Cabe destacar que se debe seleccionar el mismo idioma para todas las películas, aunque aquí unicamente se analizó la primera película. 
+Sentiment analysis, also known as opinion mining, is the process of determining the sentiment or emotion behind a given text. The Natural Language Toolkit (nltk) library is a popular open-source toolkit for performing sentiment analysis in Python.
 
-Es recomendable que todos los subtítulos que se hayan descargado se coloquen juntos en una sola carpeta, la cual estará ubicada en la carpeta principal del proyecto. 
+Using the nltk library, we can perform several tasks related to sentiment analysis, including:
 
-Tener en cuenta que el archivo principal es el llamado AnalisisSentimentalPeliculas.py
+1.	Tokenization: Breaking down the text into individual words or phrases to be analyzed.
 
-### Objetivos
+2.	Sentiment Classification: Classifying the sentiment of the text as positive, negative, or neutral. This is typically done using machine learning algorithms such as Naive Bayes or Support Vector Machines (SVM).
 
-El principal objetivo fue hacer el análisis sentimental a textos y para ello lo primero que se hizo en el programa fue un breve análisis sentimental a tres textos con diferentes opiniones acerca de un producto, uno con sentimientos negativos, uno con sentimientos positivos y otro con sentimientos neutros. Esto por medio de la librería nltk mediante el método SentimentIntensityAnalyzer.
+3.	Sentiment Scoring: Assigning a score to the sentiment of the text, such as a numerical value from -1 to 1, where -1 indicates negative sentiment, 0 indicates neutral sentiment, and 1 indicates positive sentiment.
 
-Posteriormente se hizo un análisis sentimental de la película de Harry Potter para luego graficar los sentimientos que ocurren a lo largo de la película. Con la gráfica se observan los momentos felices y tristes de la trama así como el tiempo exacto en el que ocurren. Cabe destacar que este análisis se puede hacer con cualquier película que se desee, aunque la idea es que sean películas que cuenten con un lenguaje normal y no del tipo victoriano con términos o frases que no sean comúnmente utilizadas en nuestro día a día.
+4.	Sentiment Visualization: Representing the sentiment analysis results in a visual format, such as a bar graph or pie chart.
 
-Para hacer el análisis sentimental fue importada la librería TextBlob, aunque cabe aclarar que existen más librerías para hacer este análisis y esta es una de las más básicas y fáciles por lo que fue utilizada. Gracias a esta herramienta es posible obtener valores entre -1 y 1 para indicar la intensidad del sentimiento. 
+In business, sentiment analysis has several important applications:
 
-Se empleó el método rcParams de matplotlib para definir parámetros de la gráfica tales como grosor de las líneas y colores a utilizar (aunque en realidad pueden ser muchos más parámetros). Esto para meorar la presentación de las gráficas.
+1.	Customer Feedback Analysis: Companies can use sentiment analysis to analyze customer feedback from sources such as product reviews, social media posts, and customer support tickets. This information can help companies to understand customer opinions about their products and services, identify areas for improvement, and respond to customer complaints more effectively.
 
-Se utiliza la librería datetime para marcar un inicio y final de tiempo para el gráfico, así como un intervalo de tiempo para realizar el análisis el cual fue de un minuto. Esto con el fin de ir haciendo el analisis sentimental minuto a minuto de la película, esto se logra gracias a un bucle for donde se va llenando la variable.  
+2.	Brand Monitoring: Companies can use sentiment analysis to monitor and analyze mentions of their brand or products on social media and other online platforms. This can help companies to track their brand reputation, identify areas of concern, and take action to address any negative sentiment.
 
-Tras esto se obtiene el promedio de sentimientos el cual arroja un valor de 0.1017 lo cual indica que está por arriba de 0, indicando que en general es una película con sentimientos positivos.
+3.	Market Research: Companies can use sentiment analysis to gather insights about consumer preferences, opinions, and trends. For example, they can analyze customer reviews to understand what people like or dislike about a particular product or service.
 
-Así luce la variación de sentimientos a lo largo de la película:
+4.	Social Media Analytics: Companies can use sentiment analysis to understand the sentiment behind social media posts and conversations about their brand, products, or competitors. This information can be used to inform marketing and advertising strategies.
 
-![image](https://user-images.githubusercontent.com/43154438/118346609-5a087d80-b502-11eb-9d19-45e11203750b.png)
-
-
-### Conclusiones y resultados obtenidos
-
-Como podemos ver el la gráfica, casi todas las lineas están por encima del cero, lo cual indica que esta película tiende a tener más momentos felices y positivos que tristes, coincidiendo esto con el valor del promedio obtenido. 
-
-Al poder realizar este análisis para cualquier película, también podemos decir que es posible hacer este análisis para cualquier tipo de texto o de video aumentando así el alcance de estas librerías, tanto la de nltk como la de textblob
-
-#### PD: Se agregó un código llamado Extraer_Datos_Twitter.ipynb donde se extrae cierta información de Twitter a partir de una cuenta de Developer, este código no está relacionado con el de análisis sentimental de la película, pero podrían combinarse los conocimientos en ambas cosas para obtener análisis sentimental de publicaciones en Twitter.
+In conclusion, sentiment analysis is important because it provides valuable insights into customer opinions and emotions. By using sentiment analysis, companies can better understand their customers and make informed decisions that can improve customer satisfaction, increase sales, and enhance their overall reputation. Additionally, sentiment analysis can provide valuable information for market research and help companies to stay ahead of the competition by monitoring trends and sentiment in the industry.
